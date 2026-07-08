@@ -215,6 +215,26 @@ export const certifications: Certification[] = [
 
 export const projects: Project[] = [
   {
+    title: "FiscalPay — Tax & Fiscal Management Platform",
+    description:
+      "Full-stack tax management platform: a Flutter mobile app for taxpayers and a React admin dashboard, backed by a Node.js/Express REST API.",
+    longDescription:
+      "A complete fiscal management ecosystem composed of a Flutter mobile app and a React admin dashboard, both connected to a Node.js/Express REST API with JWT authentication. Taxpayers can manage tax declarations (including G50 forms), cotisations, payments, business registry (registre de commerce) records, run a tax simulator, book appointments, and receive notifications. Administrators manage users, review and process declarations, and monitor activity through analytics, reports, and security controls.",
+    features: [
+      "Tax Declarations & G50 Forms",
+      "Cotisations & Payments",
+      "Business Registry (Registre de Commerce)",
+      "Tax Simulator",
+      "Appointment Booking",
+      "Admin Analytics & Reports",
+      "JWT Authentication",
+    ],
+    technologies: ["Flutter", "Dart", "React", "JavaScript", "Node.js", "Express", "REST API", "JWT"],
+    image: "/images/project-fiscalpay.jpg",
+    githubUrl: "https://github.com/tarik497/fiscalPay",
+    category: "Development",
+  },
+  {
     title: "Prime Watches",
     description:
       "Full-stack e-commerce web application for selling watches, built with Next.js and TypeScript and deployed on Vercel.",
@@ -408,6 +428,14 @@ export const timeline: TimelineItem[] = [
       "Graduated with a Master's degree in Networks & Multimedia, deepening expertise in advanced networking and multimedia systems.",
     type: "education",
     icon: "🎓",
+  },
+  {
+    year: "2026",
+    title: "FiscalPay — Tax Management Platform",
+    description:
+      "Built a full-stack fiscal platform: Flutter mobile app + React admin dashboard, powered by a Node.js/Express REST API.",
+    type: "project",
+    icon: "💰",
   },
   {
     year: "2026",
