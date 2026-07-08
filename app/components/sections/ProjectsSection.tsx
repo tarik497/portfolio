@@ -19,6 +19,23 @@ function ProjectImagePlaceholder({ category, title }: { category: string; title:
     Security: "🔒",
     Development: "💻",
   };
+
+  function ProjectImage({ project }: { project: Project }) {
+  const [errored, setErrored] = useState(false);
+  if (project.image && !errored) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-48 object-cover"
+        onError={() => setErrored(true)}
+      />
+    );
+  }
+  return <ProjectImagePlaceholder category={project.category} title={project.title} />;
+}
+  
   return (
     <div
       className="w-full h-48 flex flex-col items-center justify-center gap-2"
