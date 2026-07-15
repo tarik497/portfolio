@@ -57,7 +57,7 @@ export const personalInfo = {
   subtitle: "Network Engineer | Full-Stack Developer",
   bio: "Passionate about networking and software development. Holder of a Bachelor's degree in Information Systems & Software, and a Master's in Networks & Multimedia. I design and secure enterprise networks with Cisco technologies, and I build full-stack web applications with Next.js, TypeScript, and PHP.",
   profileImage: "/images/profile.jpg",
-  resumeUrl: "/cv-tarek-hamraoui.pdf",
+  resumeUrl: "/Tarik_Hamraoui_CV.pdf",
 };
 
 export const contactInfo: ContactInfo = {
