@@ -122,9 +122,9 @@ export const skillCategories: SkillCategory[] = [
     icon: "cisco",
     color: "#1d6fa4",
     skills: [
-      { name: "Packet Tracer", level: 90 },
-      { name: "Network Design", level: 80 },
-      { name: "Troubleshooting", level: 85 },
+      { name: "Packet Tracer", level: 85 },
+      { name: "Network Design", level: 75 },
+      { name: "Troubleshooting", level: 70 },
     ],
   },
   {
@@ -132,10 +132,10 @@ export const skillCategories: SkillCategory[] = [
     icon: "server",
     color: "#00ff88",
     skills: [
-      { name: "Linux", level: 78 },
+      { name: "Linux", level: 70 },
       { name: "Windows Server", level: 75 },
       { name: "Active Directory", level: 72 },
-      { name: "DNS", level: 80 },
+      { name: "DNS", level: 76 },
     ],
   },
   {
@@ -147,7 +147,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "JavaScript", level: 80 },
       { name: "PHP", level: 75 },
       { name: "HTML/CSS", level: 85 },
-      { name: "Tailwind CSS", level: 80 },
+      { name: "Tailwind CSS", level: 70 },
       { name: "Next.js", level: 76 },
     ],
   },
@@ -156,8 +156,8 @@ export const skillCategories: SkillCategory[] = [
     icon: "tools",
     color: "#fb923c",
     skills: [
-      { name: "Git & GitHub", level: 82 },
-      { name: "Wireshark", level: 78 },
+      { name: "Git & GitHub", level: 70 },
+      { name: "Wireshark", level: 30 },
     ],
   },
 ];
